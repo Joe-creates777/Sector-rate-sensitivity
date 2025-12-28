@@ -1,6 +1,6 @@
 # Sector Rate Sensitivity
 
-## Project Fuction & Motivation
+## Project Overvies & Motivation
 This project analyzes how different equity sectors respond to changes in U.S. interest rates, with the goal of identifying relative sensitivity and defensive characteristics across industries.
 
 ## Research Questions
@@ -8,10 +8,11 @@ This project analyzes how different equity sectors respond to changes in U.S. in
 - Do different sectors exhibit heterogeneous responses to interest rate movements?
 
 ## Data Sources
-- Sector-level equity returns (sector ETFs) from public market data sources.
-- U.S. 10-year Treasury yield data from public economic data sources.
+- Sector-level equity returns (sector ETFs, e.g., XLE, XLF, XLK) from public market data sources.
+- U.S. 10-year Treasury (DGS10) yield data from public economic data sources.
 
 ## Methodology
+- Rate sensitivity differs substantially across sectors, with financials and energy exhibiting higher exposure relative to defensive sectors.
 - Construct time-series returns for sector-level equities.
 - Estimate sector-specific interest rate exposure using regression-based models.
 - Compare sensitivity estimates across sectors via cross-sectional analysis.
