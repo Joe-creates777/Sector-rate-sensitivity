@@ -52,3 +52,6 @@ Run the script
 ```bash
 python sector_rate_sensitivity.py
 ```
+## Notes on Data and Interpretation
+This analysis uses real historical market data (U.S. Treasury yields and sector ETFs).  
+The estimated sensitivities represent simplified linear exposures and should be interpreted as directional macro relationships rather than precise trading signals.
