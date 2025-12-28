@@ -25,3 +25,6 @@ This project analyzes how different equity sectors respond to changes in U.S. in
 The figure below summarizes estimated sector sensitivity to intereest rate changes.
 
 ## How to Reproduce
+Install dependencies:
+```bash
+   pip install -r requirements.txt
