@@ -24,6 +24,7 @@ This project analyzes how different equity sectors respond to changes in U.S. in
 
 ## Visualizations
 The figure below summarizes estimated sector sensitivity to intereest rate changes.
+![Sector Sensitivity](result/figures/sector-sensitivity.png)
 
 ## How to Reproduce
 Install dependencies:
