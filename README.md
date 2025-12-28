@@ -23,8 +23,10 @@ This project analyzes how different equity sectors respond to changes in U.S. in
 - Results highlight heterogeneity in sector exposure to interest-rate risk.
 
 ## Visualizations
-The figure below summarizes estimated sector sensitivity to intereest rate changes.
-![Sector Sensitivity](result/figures/sector_yield_sensitivity.png)
+The figure below summarizes estimated sector sensitivity to changes in the U.S. 10-year Treasury yield.
+Betas are interpreted as the change in daily sector returns per 100 basis point (1%) change in the 10Y yield.
+
+![Sector Sensitivity to 10Y Yield Changes](results/figures/sector_sensitivity.png)
 
 ## How to Reproduce
 Install dependencies:
