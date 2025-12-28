@@ -29,15 +29,26 @@ Betas are interpreted as the change in daily sector returns per 100 basis point 
 ![Sector Sensitivity to 10Y Yield Changes](results/figures/sector_sensitivity.png)
 
 ## How to Reproduce
-Clone this repository:
-   ```bash
-   git clone https://github.com/Joe-creates777/Sector-rate-sensitivity.git
-   cd Sector-rate-sensitivity
-Create a virtual environment:
-   ```bash
-   python -m venv .venv
+### Clone this repository:
+ ```bash
+ git clone https://github.com/Joe-creates777/Sector-rate-sensitivity.git
+ cd Sector-rate-sensitivity
+ ```
+### Create a virtual environment:
+```bash
+python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate   # Windows
-Install dependencies:
+```
+### Install dependencies:
 ```bash
    pip install -r requirements.txt
+```
+### Run the analysis
+#### Option A (Notebook)
+Open sector-analysis.ipynb in Jupyter and run all cells
+#### Option B (Script)
+Run the script
+```bash
+python sector_rate_sensitivity.py
+```
