@@ -33,7 +33,11 @@ Clone this repository:
    ```bash
    git clone https://github.com/Joe-creates777/Sector-rate-sensitivity.git
    cd Sector-rate-sensitivity
-
+Create a virtual environment:
+   ```bash
+   python -m venv .venv
+source .venv/bin/activate  # macOS/Linux
+# .venv\Scripts\activate   # Windows
 Install dependencies:
 ```bash
    pip install -r requirements.txt
