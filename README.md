@@ -45,9 +45,9 @@ source .venv/bin/activate  # macOS/Linux
    pip install -r requirements.txt
 ```
 ### Run the analysis
-#### Option A (Notebook)
+#### - Option A (Notebook)
 Open sector-analysis.ipynb in Jupyter and run all cells
-#### Option B (Script)
+#### - Option B (Script)
 Run the script
 ```bash
 python sector_rate_sensitivity.py
